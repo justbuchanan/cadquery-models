@@ -3,33 +3,71 @@ jobs:
     build:
         working_directory: /cadquery-models
         docker:
-            - image: justbuchanan/docker-archlinux
+            - image: justbuchanan/docker-cadquery
         steps:
-            - run: echo 'export CIRCLE_ARTIFACTS=/tmp/artifacts' >> $BASH_ENV
-            - run: mkdir -p $CIRCLE_ARTIFACTS
-
-            # deps
-            - run: sudo pacman -Sy --noconfirm python 
-
-            # install anaconda
-            - run: mkdir /anaconda
-            - run: cd /anaconda && curl https://aur.archlinux.org/cgit/aur.git/plain/anaconda.install\?h\=anaconda -o anaconda.install
-            - run: cd /anaconda && curl https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD\?h\=anaconda -o PKGBUILD
-            - run: cd /anaconda && mkpkg -Si
+            - run: mkdir /tmp/artifacts
 
             - checkout
 
-            - run: python render.py /tmp/artifacts/test.stl
+            # Render model
+            - run: python2 render.py --file car.py --out_dir /tmp/artifacts
+
+            - store_artifacts:
+                path: /tmp/artifacts
+            - save_cache:
+                key: artifacts-{{ .Branch }}-{{ .Revision }}
+                paths:
+                    - "/tmp/artifacts"
+
+    deploy_ghpages:
+        docker:
+            - image: justbuchanan/docker-cadquery
+        steps:
+            - add_ssh_keys:
+                fingerprints:
+                    - "86:03:e5:b9:32:d8:10:f3:17:0a:80:d8:62:b1:68:ec"
 
             # setup git
             - run: git config --global user.email "ci@circle"
             - run: git config --global user.name "Circle Ci"
 
-            - store_artifacts:
-                path: /tmp/artifacts
+            - restore_cache:
+                keys:
+                    - artifacts-{{ .Branch }}-{{ .Revision }}
+
+            - checkout
+            - run: git checkout gh-pages
+            - run: git status
+            - run: ls -l
+
+            - run: rm -rf ./*
+
+            - run: mkdir model
+
+            - run: cp -r /tmp/artifacts/* ./model
+
+            # copy static resources from cqparts
+            - run: cp -r /examples/cqparts/src/cqparts/display/web-template/* ./
+
+            # fix urls: /static/ -> /$reponame/static/
+            - run: sed -i 's/\/static\//\/cadquery-models\/static\//g' index.html
+
+            # fix model path
+            - run: sed -i 's/out\.gltf/Car\/Car\.gltf/g' static/js/cqpartsViewer.js
+
+            - run: cat index.html # debug
+
+            # deploy gh-pages branch
+            - run: git add .
+            - run: git commit -m 'update pages'
+            - run: git push origin gh-pages
+
 
 workflows:
-  version: 2
-  all:
-    jobs:
-      - build
+    version: 2
+    all:
+        jobs:
+            - build
+            - deploy_ghpages:
+                requires:
+                    - build
