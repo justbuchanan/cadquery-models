@@ -1,0 +1,35 @@
+version: 2
+jobs:
+    build:
+        working_directory: /cadquery-models
+        docker:
+            - image: justbuchanan/docker-archlinux
+        steps:
+            - run: echo 'export CIRCLE_ARTIFACTS=/tmp/artifacts' >> $BASH_ENV
+            - run: mkdir -p $CIRCLE_ARTIFACTS
+
+            # deps
+            - run: sudo pacman -Sy --noconfirm python 
+
+            # install anaconda
+            - run: mkdir /anaconda
+            - run: cd /anaconda && curl https://aur.archlinux.org/cgit/aur.git/plain/anaconda.install\?h\=anaconda -o anaconda.install
+            - run: cd /anaconda && curl https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD\?h\=anaconda -o PKGBUILD
+            - run: cd /anaconda && mkpkg -Si
+
+            - checkout
+
+            - run: python render.py /tmp/artifacts/test.stl
+
+            # setup git
+            - run: git config --global user.email "ci@circle"
+            - run: git config --global user.name "Circle Ci"
+
+            - store_artifacts:
+                path: /tmp/artifacts
+
+workflows:
+  version: 2
+  all:
+    jobs:
+      - build
