@@ -1,0 +1,757 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0, 
+      "byteOffset": 0, 
+      "componentType": 5126, 
+      "count": 1376, 
+      "max": [
+        15.1, 
+        15.098736066637253, 
+        9.1
+      ], 
+      "min": [
+        -15.1, 
+        -15.098736066637253, 
+        -0.1
+      ], 
+      "type": "VEC3"
+    }, 
+    {
+      "bufferView": 1, 
+      "byteOffset": 0, 
+      "componentType": 5123, 
+      "count": 8256, 
+      "type": "SCALAR"
+    }, 
+    {
+      "bufferView": 2, 
+      "byteOffset": 0, 
+      "componentType": 5126, 
+      "count": 500, 
+      "max": [
+        2.5987155405017197, 
+        22.6, 
+        2.6
+      ], 
+      "min": [
+        -2.5987155405017197, 
+        -22.6, 
+        -2.6
+      ], 
+      "type": "VEC3"
+    }, 
+    {
+      "bufferView": 3, 
+      "byteOffset": 0, 
+      "componentType": 5123, 
+      "count": 2988, 
+      "type": "SCALAR"
+    }, 
+    {
+      "bufferView": 4, 
+      "byteOffset": 0, 
+      "componentType": 5126, 
+      "count": 1376, 
+      "max": [
+        15.1, 
+        15.098736066637253, 
+        9.1
+      ], 
+      "min": [
+        -15.1, 
+        -15.098736066637253, 
+        -0.1
+      ], 
+      "type": "VEC3"
+    }, 
+    {
+      "bufferView": 5, 
+      "byteOffset": 0, 
+      "componentType": 5123, 
+      "count": 8256, 
+      "type": "SCALAR"
+    }, 
+    {
+      "bufferView": 6, 
+      "byteOffset": 0, 
+      "componentType": 5126, 
+      "count": 2959, 
+      "max": [
+        60.1, 
+        27.1, 
+        40.1
+      ], 
+      "min": [
+        -60.1, 
+        -27.1, 
+        -0.10000000000002748
+      ], 
+      "type": "VEC3"
+    }, 
+    {
+      "bufferView": 7, 
+      "byteOffset": 0, 
+      "componentType": 5123, 
+      "count": 17742, 
+      "type": "SCALAR"
+    }, 
+    {
+      "bufferView": 8, 
+      "byteOffset": 0, 
+      "componentType": 5126, 
+      "count": 1376, 
+      "max": [
+        15.1, 
+        15.098736066637253, 
+        9.1
+      ], 
+      "min": [
+        -15.1, 
+        -15.098736066637253, 
+        -0.1
+      ], 
+      "type": "VEC3"
+    }, 
+    {
+      "bufferView": 9, 
+      "byteOffset": 0, 
+      "componentType": 5123, 
+      "count": 8256, 
+      "type": "SCALAR"
+    }, 
+    {
+      "bufferView": 10, 
+      "byteOffset": 0, 
+      "componentType": 5126, 
+      "count": 500, 
+      "max": [
+        2.5987155405017197, 
+        22.6, 
+        2.6
+      ], 
+      "min": [
+        -2.5987155405017197, 
+        -22.6, 
+        -2.6
+      ], 
+      "type": "VEC3"
+    }, 
+    {
+      "bufferView": 11, 
+      "byteOffset": 0, 
+      "componentType": 5123, 
+      "count": 2988, 
+      "type": "SCALAR"
+    }, 
+    {
+      "bufferView": 12, 
+      "byteOffset": 0, 
+      "componentType": 5126, 
+      "count": 1376, 
+      "max": [
+        15.1, 
+        15.098736066637253, 
+        9.1
+      ], 
+      "min": [
+        -15.1, 
+        -15.098736066637253, 
+        -0.1
+      ], 
+      "type": "VEC3"
+    }, 
+    {
+      "bufferView": 13, 
+      "byteOffset": 0, 
+      "componentType": 5123, 
+      "count": 8256, 
+      "type": "SCALAR"
+    }
+  ], 
+  "asset": {
+    "generator": "cqparts_0.2.1", 
+    "version": "2.0"
+  }, 
+  "bufferViews": [
+    {
+      "buffer": 0, 
+      "byteLength": 16512, 
+      "byteOffset": 0, 
+      "byteStride": 12, 
+      "target": 34962
+    }, 
+    {
+      "buffer": 0, 
+      "byteLength": 16512, 
+      "byteOffset": 16512, 
+      "target": 34963
+    }, 
+    {
+      "buffer": 1, 
+      "byteLength": 6000, 
+      "byteOffset": 0, 
+      "byteStride": 12, 
+      "target": 34962
+    }, 
+    {
+      "buffer": 1, 
+      "byteLength": 5976, 
+      "byteOffset": 6000, 
+      "target": 34963
+    }, 
+    {
+      "buffer": 2, 
+      "byteLength": 16512, 
+      "byteOffset": 0, 
+      "byteStride": 12, 
+      "target": 34962
+    }, 
+    {
+      "buffer": 2, 
+      "byteLength": 16512, 
+      "byteOffset": 16512, 
+      "target": 34963
+    }, 
+    {
+      "buffer": 3, 
+      "byteLength": 35508, 
+      "byteOffset": 0, 
+      "byteStride": 12, 
+      "target": 34962
+    }, 
+    {
+      "buffer": 3, 
+      "byteLength": 35484, 
+      "byteOffset": 35508, 
+      "target": 34963
+    }, 
+    {
+      "buffer": 4, 
+      "byteLength": 16512, 
+      "byteOffset": 0, 
+      "byteStride": 12, 
+      "target": 34962
+    }, 
+    {
+      "buffer": 4, 
+      "byteLength": 16512, 
+      "byteOffset": 16512, 
+      "target": 34963
+    }, 
+    {
+      "buffer": 5, 
+      "byteLength": 6000, 
+      "byteOffset": 0, 
+      "byteStride": 12, 
+      "target": 34962
+    }, 
+    {
+      "buffer": 5, 
+      "byteLength": 5976, 
+      "byteOffset": 6000, 
+      "target": 34963
+    }, 
+    {
+      "buffer": 6, 
+      "byteLength": 16512, 
+      "byteOffset": 0, 
+      "byteStride": 12, 
+      "target": 34962
+    }, 
+    {
+      "buffer": 6, 
+      "byteLength": 16512, 
+      "byteOffset": 16512, 
+      "target": 34963
+    }
+  ], 
+  "buffers": [
+    {
+      "byteLength": 33024, 
+      "uri": "car.front_axle.left_wheel.bin"
+    }, 
+    {
+      "byteLength": 11976, 
+      "uri": "car.front_axle.axle.bin"
+    }, 
+    {
+      "byteLength": 33024, 
+      "uri": "car.front_axle.right_wheel.bin"
+    }, 
+    {
+      "byteLength": 70992, 
+      "uri": "car.chassis.bin"
+    }, 
+    {
+      "byteLength": 33024, 
+      "uri": "car.rear_axle.left_wheel.bin"
+    }, 
+    {
+      "byteLength": 11976, 
+      "uri": "car.rear_axle.axle.bin"
+    }, 
+    {
+      "byteLength": 33024, 
+      "uri": "car.rear_axle.right_wheel.bin"
+    }
+  ], 
+  "materials": [
+    {
+      "alphaCutoff": 1.0, 
+      "alphaMode": "BLEND", 
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6627, 
+          0.1961, 
+          0.149, 
+          1.0
+        ], 
+        "metallicFactor": 0.1, 
+        "roughnessFactor": 0.7
+      }
+    }, 
+    {
+      "alphaCutoff": 1.0, 
+      "alphaMode": "BLEND", 
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1961, 
+          0.1961, 
+          0.1961, 
+          1.0
+        ], 
+        "metallicFactor": 0.1, 
+        "roughnessFactor": 0.7
+      }
+    }, 
+    {
+      "alphaCutoff": 1.0, 
+      "alphaMode": "BLEND", 
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6627, 
+          0.1961, 
+          0.149, 
+          1.0
+        ], 
+        "metallicFactor": 0.1, 
+        "roughnessFactor": 0.7
+      }
+    }, 
+    {
+      "alphaCutoff": 1.0, 
+      "alphaMode": "BLEND", 
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9216, 
+          0.5961, 
+          0.3059, 
+          1.0
+        ], 
+        "metallicFactor": 0.1, 
+        "roughnessFactor": 0.7
+      }
+    }, 
+    {
+      "alphaCutoff": 1.0, 
+      "alphaMode": "BLEND", 
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6627, 
+          0.1961, 
+          0.149, 
+          1.0
+        ], 
+        "metallicFactor": 0.1, 
+        "roughnessFactor": 0.7
+      }
+    }, 
+    {
+      "alphaCutoff": 1.0, 
+      "alphaMode": "BLEND", 
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1961, 
+          0.1961, 
+          0.1961, 
+          1.0
+        ], 
+        "metallicFactor": 0.1, 
+        "roughnessFactor": 0.7
+      }
+    }, 
+    {
+      "alphaCutoff": 1.0, 
+      "alphaMode": "BLEND", 
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6627, 
+          0.1961, 
+          0.149, 
+          1.0
+        ], 
+        "metallicFactor": 0.1, 
+        "roughnessFactor": 0.7
+      }
+    }
+  ], 
+  "meshes": [
+    {
+      "name": "car.front_axle.left_wheel", 
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          }, 
+          "indices": 1, 
+          "material": 0, 
+          "mode": 4
+        }
+      ]
+    }, 
+    {
+      "name": "car.front_axle.axle", 
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          }, 
+          "indices": 3, 
+          "material": 1, 
+          "mode": 4
+        }
+      ]
+    }, 
+    {
+      "name": "car.front_axle.right_wheel", 
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          }, 
+          "indices": 5, 
+          "material": 2, 
+          "mode": 4
+        }
+      ]
+    }, 
+    {
+      "name": "car.chassis", 
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          }, 
+          "indices": 7, 
+          "material": 3, 
+          "mode": 4
+        }
+      ]
+    }, 
+    {
+      "name": "car.rear_axle.left_wheel", 
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          }, 
+          "indices": 9, 
+          "material": 4, 
+          "mode": 4
+        }
+      ]
+    }, 
+    {
+      "name": "car.rear_axle.axle", 
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          }, 
+          "indices": 11, 
+          "material": 5, 
+          "mode": 4
+        }
+      ]
+    }, 
+    {
+      "name": "car.rear_axle.right_wheel", 
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12
+          }, 
+          "indices": 13, 
+          "material": 6, 
+          "mode": 4
+        }
+      ]
+    }
+  ], 
+  "nodes": [
+    {
+      "children": [
+        1
+      ], 
+      "matrix": [
+        0.001, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        -0.001, 
+        0.0, 
+        0.0, 
+        0.001, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0
+      ]
+    }, 
+    {
+      "children": [
+        2, 
+        6, 
+        7
+      ], 
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0
+      ], 
+      "name": "car"
+    }, 
+    {
+      "children": [
+        3, 
+        4, 
+        5
+      ], 
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        35.0, 
+        0.0, 
+        0.0, 
+        1.0
+      ], 
+      "name": "car.front_axle"
+    }, 
+    {
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        -1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        -22.5, 
+        0.0, 
+        1.0
+      ], 
+      "mesh": 0, 
+      "name": "car.front_axle.left_wheel"
+    }, 
+    {
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0
+      ], 
+      "mesh": 1, 
+      "name": "car.front_axle.axle"
+    }, 
+    {
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        -1.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        22.5, 
+        0.0, 
+        1.0
+      ], 
+      "mesh": 2, 
+      "name": "car.front_axle.right_wheel"
+    }, 
+    {
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0
+      ], 
+      "mesh": 3, 
+      "name": "car.chassis"
+    }, 
+    {
+      "children": [
+        8, 
+        9, 
+        10
+      ], 
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        -35.0, 
+        0.0, 
+        0.0, 
+        1.0
+      ], 
+      "name": "car.rear_axle"
+    }, 
+    {
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        -1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        -22.5, 
+        0.0, 
+        1.0
+      ], 
+      "mesh": 4, 
+      "name": "car.rear_axle.left_wheel"
+    }, 
+    {
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0
+      ], 
+      "mesh": 5, 
+      "name": "car.rear_axle.axle"
+    }, 
+    {
+      "matrix": [
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        -1.0, 
+        0.0, 
+        0.0, 
+        1.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        22.5, 
+        0.0, 
+        1.0
+      ], 
+      "mesh": 6, 
+      "name": "car.rear_axle.right_wheel"
+    }
+  ], 
+  "scene": 0, 
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
