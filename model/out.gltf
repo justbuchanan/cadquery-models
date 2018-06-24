@@ -76,7 +76,7 @@
       "bufferView": 6, 
       "byteOffset": 0, 
       "componentType": 5126, 
-      "count": 2959, 
+      "count": 2965, 
       "max": [
         60.1, 
         27.1, 
@@ -93,7 +93,7 @@
       "bufferView": 7, 
       "byteOffset": 0, 
       "componentType": 5123, 
-      "count": 17742, 
+      "count": 17778, 
       "type": "SCALAR"
     }, 
     {
@@ -215,15 +215,15 @@
     }, 
     {
       "buffer": 3, 
-      "byteLength": 35508, 
+      "byteLength": 35580, 
       "byteOffset": 0, 
       "byteStride": 12, 
       "target": 34962
     }, 
     {
       "buffer": 3, 
-      "byteLength": 35484, 
-      "byteOffset": 35508, 
+      "byteLength": 35556, 
+      "byteOffset": 35580, 
       "target": 34963
     }, 
     {
@@ -269,31 +269,31 @@
   "buffers": [
     {
       "byteLength": 33024, 
-      "uri": "car.front_axle.left_wheel.bin"
+      "uri": "out.front_axle.left_wheel.bin"
     }, 
     {
       "byteLength": 11976, 
-      "uri": "car.front_axle.axle.bin"
+      "uri": "out.front_axle.axle.bin"
     }, 
     {
       "byteLength": 33024, 
-      "uri": "car.front_axle.right_wheel.bin"
+      "uri": "out.front_axle.right_wheel.bin"
     }, 
     {
-      "byteLength": 70992, 
-      "uri": "car.chassis.bin"
+      "byteLength": 71136, 
+      "uri": "out.chassis.bin"
     }, 
     {
       "byteLength": 33024, 
-      "uri": "car.rear_axle.left_wheel.bin"
+      "uri": "out.rear_axle.left_wheel.bin"
     }, 
     {
       "byteLength": 11976, 
-      "uri": "car.rear_axle.axle.bin"
+      "uri": "out.rear_axle.axle.bin"
     }, 
     {
       "byteLength": 33024, 
-      "uri": "car.rear_axle.right_wheel.bin"
+      "uri": "out.rear_axle.right_wheel.bin"
     }
   ], 
   "materials": [
@@ -398,7 +398,7 @@
   ], 
   "meshes": [
     {
-      "name": "car.front_axle.left_wheel", 
+      "name": "out.front_axle.left_wheel", 
       "primitives": [
         {
           "attributes": {
@@ -411,7 +411,7 @@
       ]
     }, 
     {
-      "name": "car.front_axle.axle", 
+      "name": "out.front_axle.axle", 
       "primitives": [
         {
           "attributes": {
@@ -424,7 +424,7 @@
       ]
     }, 
     {
-      "name": "car.front_axle.right_wheel", 
+      "name": "out.front_axle.right_wheel", 
       "primitives": [
         {
           "attributes": {
@@ -437,7 +437,7 @@
       ]
     }, 
     {
-      "name": "car.chassis", 
+      "name": "out.chassis", 
       "primitives": [
         {
           "attributes": {
@@ -450,7 +450,7 @@
       ]
     }, 
     {
-      "name": "car.rear_axle.left_wheel", 
+      "name": "out.rear_axle.left_wheel", 
       "primitives": [
         {
           "attributes": {
@@ -463,7 +463,7 @@
       ]
     }, 
     {
-      "name": "car.rear_axle.axle", 
+      "name": "out.rear_axle.axle", 
       "primitives": [
         {
           "attributes": {
@@ -476,7 +476,7 @@
       ]
     }, 
     {
-      "name": "car.rear_axle.right_wheel", 
+      "name": "out.rear_axle.right_wheel", 
       "primitives": [
         {
           "attributes": {
@@ -537,7 +537,7 @@
         0.0, 
         1.0
       ], 
-      "name": "car"
+      "name": "out"
     }, 
     {
       "children": [
@@ -563,7 +563,7 @@
         0.0, 
         1.0
       ], 
-      "name": "car.front_axle"
+      "name": "out.front_axle"
     }, 
     {
       "matrix": [
@@ -585,7 +585,7 @@
         1.0
       ], 
       "mesh": 0, 
-      "name": "car.front_axle.left_wheel"
+      "name": "out.front_axle.left_wheel"
     }, 
     {
       "matrix": [
@@ -607,7 +607,7 @@
         1.0
       ], 
       "mesh": 1, 
-      "name": "car.front_axle.axle"
+      "name": "out.front_axle.axle"
     }, 
     {
       "matrix": [
@@ -629,7 +629,7 @@
         1.0
       ], 
       "mesh": 2, 
-      "name": "car.front_axle.right_wheel"
+      "name": "out.front_axle.right_wheel"
     }, 
     {
       "matrix": [
@@ -651,7 +651,7 @@
         1.0
       ], 
       "mesh": 3, 
-      "name": "car.chassis"
+      "name": "out.chassis"
     }, 
     {
       "children": [
@@ -677,7 +677,7 @@
         0.0, 
         1.0
       ], 
-      "name": "car.rear_axle"
+      "name": "out.rear_axle"
     }, 
     {
       "matrix": [
@@ -699,7 +699,7 @@
         1.0
       ], 
       "mesh": 4, 
-      "name": "car.rear_axle.left_wheel"
+      "name": "out.rear_axle.left_wheel"
     }, 
     {
       "matrix": [
@@ -721,7 +721,7 @@
         1.0
       ], 
       "mesh": 5, 
-      "name": "car.rear_axle.axle"
+      "name": "out.rear_axle.axle"
     }, 
     {
       "matrix": [
@@ -743,7 +743,7 @@
         1.0
       ], 
       "mesh": 6, 
-      "name": "car.rear_axle.right_wheel"
+      "name": "out.rear_axle.right_wheel"
     }
   ], 
   "scene": 0, 
