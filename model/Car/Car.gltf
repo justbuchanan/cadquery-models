@@ -76,7 +76,7 @@
       "bufferView": 6, 
       "byteOffset": 0, 
       "componentType": 5126, 
-      "count": 2963, 
+      "count": 2961, 
       "max": [
         60.1, 
         27.1, 
@@ -93,7 +93,7 @@
       "bufferView": 7, 
       "byteOffset": 0, 
       "componentType": 5123, 
-      "count": 17766, 
+      "count": 17754, 
       "type": "SCALAR"
     }, 
     {
@@ -215,15 +215,15 @@
     }, 
     {
       "buffer": 3, 
-      "byteLength": 35556, 
+      "byteLength": 35532, 
       "byteOffset": 0, 
       "byteStride": 12, 
       "target": 34962
     }, 
     {
       "buffer": 3, 
-      "byteLength": 35532, 
-      "byteOffset": 35556, 
+      "byteLength": 35508, 
+      "byteOffset": 35532, 
       "target": 34963
     }, 
     {
@@ -280,7 +280,7 @@
       "uri": "Car.front_axle.right_wheel.bin"
     }, 
     {
-      "byteLength": 71088, 
+      "byteLength": 71040, 
       "uri": "Car.chassis.bin"
     }, 
     {
