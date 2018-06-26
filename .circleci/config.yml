@@ -23,6 +23,8 @@ jobs:
         docker:
             - image: justbuchanan/docker-cadquery
         steps:
+            # Add SSH key that allows *pushing* to the github repo.
+            # https://circleci.com/docs/2.0/gh-bb-integration/#creating-a-github-user-key
             - add_ssh_keys:
                 fingerprints:
                     - "86:03:e5:b9:32:d8:10:f3:17:0a:80:d8:62:b1:68:ec"
@@ -40,10 +42,11 @@ jobs:
             - run: git status
             - run: ls -l
 
+            # clear previous output
             - run: rm -rf ./*
 
+            # copy build outputs to 'model' directory
             - run: mkdir model
-
             - run: cp -r /tmp/artifacts/* ./model
 
             # copy static resources from cqparts
@@ -54,8 +57,6 @@ jobs:
 
             # fix model path
             - run: sed -i 's/out\.gltf/Car\/Car\.gltf/g' static/js/cqpartsViewer.js
-
-            - run: cat index.html # debug
 
             # deploy gh-pages branch
             - run: git add .
