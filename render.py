@@ -1,5 +1,5 @@
 # Simple script to render cadquery models via the cqgi interface
-# Usage: render.py mymodel.py path/to/output.gltf
+# Usage: render.py --file mymodel.py --out_dir output/mymodel/
 
 from cadquery import cqgi
 import argparse
